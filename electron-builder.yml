@@ -1,0 +1,17 @@
+appId: com.madinamedical.pharmacybilling
+productName: Madina Medical
+directories:
+  output: release
+  buildResources: assets
+files:
+  - dist/**/*
+  - electron/**/*
+  - node_modules/sql.js/**/*
+  - package.json
+extraResources:
+  - from: assets/icon.ico
+    to: icon.ico
+win:
+  target:
+    - dir
+  icon: assets/icon.ico
